@@ -1,0 +1,53 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.page-top-bar {
+  width: 100%;
+  height: 100px;
+  background-color: #551c50;
+  margin-top: -11px;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 30px 0px 0px;
+}
+
+.brand-logo-img {
+  height: 77px;
+}
+
+.text-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.page-heading-main {
+  font-size: 47pt;
+  color: #551c50;
+  margin-bottom: -16px;
+}
+
+.page-heading-small {
+  text-align: center;
+  font-size: 26pt;
+  color: #551c5087;
+}
