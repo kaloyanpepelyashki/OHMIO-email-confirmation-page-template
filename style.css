@@ -9,6 +9,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .page-main-container {
   width: 100%;
@@ -16,10 +18,11 @@ body {
 }
 
 .page-top-bar {
-  width: 100%;
+  width: 102%;
   height: 100px;
   background-color: #551c50;
   margin-top: -11px;
+  margin-left: -9px;
 }
 
 .page-content {
@@ -30,24 +33,63 @@ body {
 }
 
 .brand-logo-img {
-  height: 77px;
+  height: 58px;
 }
 
 .text-holder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 .page-heading-main {
-  font-size: 47pt;
+  font-size: 40pt;
   color: #551c50;
-  margin-bottom: -16px;
+  margin-bottom: -2px;
+  margin-top: 40px;
 }
 
 .page-heading-small {
   text-align: center;
-  font-size: 26pt;
+  font-size: 22pt;
   color: #551c5087;
+  margin-top: 20px;
+}
+
+.page-heading-main:hover {
+  cursor: default;
+}
+.page-heading-small:hover {
+  cursor: default;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .page-content {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-top: 85px;
+    padding: 0;
+  }
+  .brand-logo-img {
+    width: 295px;
+    height: 53px;
+  }
+  .text-holder {
+    margin-top: 120px;
+  }
+  .page-heading-main {
+    font-size: 26pt;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .page-heading-small {
+    font-size: 18pt;
+    text-align: center;
+  }
 }
